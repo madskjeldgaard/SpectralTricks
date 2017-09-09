@@ -5,9 +5,10 @@ This package adds all of the common spectral effects from SuperCollider to Tidal
 Unforunately some of these are a bit heavy on the cpu so sprinkle them gently throughout your code. 
 
 Use:
-1. Install the package on your system (using your terminal, cd into the `Cabal-Package` folder and type `cabal install`)
-2. In Tidal, evaluate the line `import Sound.Tidal.SpectralTricks`
-3. Evaluate SpectralTricksSCSynths.scd in Supercollider
+1. Download this repo from github
+2. Install the package on your system (using your terminal, cd into the `Cabal-Package` folder and type `cabal install`)
+3. In Tidal, evaluate the line `import Sound.Tidal.SpectralTricks`
+4. Evaluate SpectralTricksSCSynths.scd in Supercollider
 
 That's it!
 
