@@ -1,0 +1,26 @@
+name:                SpectralTricks
+version:             0.1.0.0
+-- synopsis:
+-- description:
+homepage:            https://github.com/githubuser/SpectralTricks#readme
+license:             BSD3
+license-file:        LICENSE
+author:              Mads Kjeldgaard 
+maintainer:          mail@madskjeldgaard.dk 
+copyright:           None 
+category:            Web
+build-type:          Simple
+extra-source-files:  README.md
+cabal-version:       >=1.10
+
+library
+  hs-source-dirs:      src
+  exposed-modules:     Sound.Tidal.SpectralTricks 
+  build-depends:       base >= 4.7 && < 5,
+                        tidal
+  default-language:    Haskell2010
+  default-extensions: OverloadedStrings
+
+source-repository head
+  type:     git
+  location: https://github.com/githubuser/SpectralTricks
