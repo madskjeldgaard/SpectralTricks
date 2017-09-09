@@ -13,41 +13,39 @@ That's it!
 
 Now you can destroy your sounds like this: `d1 $ every 2 (# freeze 1) $ weave 16 (smear saw # comb sine # binshift rand) [sound1, sound2, sound3] # hbrick (slow 64 $ saw)`
 
-### The parameters are
+## The parameters:
 
+#### Magnitude freeze.
 `# freeze`
-Magnitude freeze.
 
 Accepts integers: 1 freezes the audio, 0 doesn't. 
 
+#### Magnitude smearing. 
 `# smear`
-
-Magnitude smearing. 
 
 Accepts floats to determine the amount of smearing. 
 
+#### A spectral comb filter
 `# comb`
-A spectral comb filter
 
 Number of teeth and width of the comb are all controlled using one floating point number
 
+#### Bin scrambling
 `# scram`
-Bin scrambling
 
 Accepts floats to control the width and placement of the scrambling in the spectrum
 
+#### Bin shifting
 `# binshift`
 
 Both the stretching and shifting of bins are controlled by supplying this parameter with floats. 
 
+#### Spectral high pass filter
 `# hbrick`
-
-A spectral high pass filter
 
 Accepts floats in values ranging from 0.0 to 1.0
 
+#### Spectral low pass filter
 `# lbrick`
-
-A spectral low pass filter
 
 Accepts floats in values ranging from 0.0 to 1.0
