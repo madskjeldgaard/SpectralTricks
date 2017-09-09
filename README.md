@@ -11,7 +11,7 @@ Use:
 
 That's it!
 
-Now you can destroy your sounds like this: `d1 $ weave 16 (smear saw # comb sine # binshift rand) [sound1, sound2, sound3] # hbrick (slow 64 $ saw)`
+Now you can destroy your sounds like this: `d1 $ every 2 (# freeze 1) $ weave 16 (smear saw # comb sine # binshift rand) [sound1, sound2, sound3] # hbrick (slow 64 $ saw)`
 
 The parameters are
 
