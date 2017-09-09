@@ -1,9 +1,6 @@
 # SpectralTricks
 A haskell package adding spectral effects to Tidal
 
-This package adds all of the common spectral effects from SuperCollider to Tidal as synth parameters. 
-Unforunately some of these are a bit heavy on the cpu so sprinkle them gently throughout your code. 
-
 Use:
 1. Download this repo from github
 2. Install the package on your system (using your terminal, cd into the `Cabal-Package` folder and type `cabal install`)
@@ -12,7 +9,11 @@ Use:
 
 That's it!
 
-Now you can destroy your sounds like this: `d1 $ every 2 (# freeze 1) $ weave 16 (smear saw # comb sine # binshift rand) [sound1, sound2, sound3] # hbrick (slow 64 $ saw)`
+This package adds all of the common spectral effects from SuperCollider to Tidal as synth parameters. 
+Unforunately some of these are a bit heavy on the cpu so sprinkle them gently throughout your code. If you want to keep an eye on cpu usage, you can evaluate `fork{loop{1.wait; "CPU usage: ".post; s.avgCPU.post; " %".postln}};` in supercollider – this will have sc post an update every second on how much cpu usage you're at.
+
+Anyway, now you can destroy your sounds like this: `d1 $ every 2 (# freeze 1) $ weave 16 (smear saw # comb sine # binshift rand) [sound1, sound2, sound3] # hbrick (slow 64 $ saw)`
+
 
 ## The parameters:
 
