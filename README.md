@@ -14,9 +14,6 @@ Unforunately some of these are a bit heavy on the cpu so sprinkle them gently th
 
 Anyway, now you can destroy your sounds like this: `d1 $ every 2 (# freeze 1) $ weave 16 (smear saw # comb sine # binshift rand) [sound1, sound2, sound3] # hbrick (slow 64 $ saw)`
 
-<blockquote class="twitter-video" data-lang="da"><p lang="en" dir="ltr">import Sound.Tidal.SpectralTricks <a href="https://t.co/lV17kYKSzF">pic.twitter.com/lV17kYKSzF</a></p>&mdash; Mads Kjeldgaard (@Mads_Kjeldgaard) <a href="https://twitter.com/Mads_Kjeldgaard/status/906822269598666753">10. september 2017</a></blockquote>
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-
 ## The parameters:
 
 #### Magnitude freeze.
