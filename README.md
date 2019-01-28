@@ -9,6 +9,8 @@ Use:
 
 That's it!
 
+** Note: This package is currently not supported on tidal 1.0+ ** 
+
 This package adds all of the common spectral effects from SuperCollider to Tidal as synth parameters. 
 Unforunately some of these are a bit heavy on the cpu so sprinkle them gently throughout your code. If you want to keep an eye on cpu usage, you can evaluate `fork{loop{1.wait; "CPU usage: ".post; s.avgCPU.post; " %".postln}};` in supercollider – this will have sc post an update every second on how much cpu usage you're at.
 
