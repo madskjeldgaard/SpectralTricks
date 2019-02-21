@@ -1,3 +1,7 @@
+# DEPRECATED
+
+This package is depcrecated. A more up to date version of this has been added to SuperDirt and Tidal as extra default effects and that's where it's being maintained/developed from now on, hence you don't need to use this repo anymore.
+
 # SpectralTricks
 A haskell package adding spectral effects to Tidal
 
